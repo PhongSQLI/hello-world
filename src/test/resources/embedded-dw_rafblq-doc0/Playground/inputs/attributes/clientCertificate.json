@@ -1,0 +1,74 @@
+{
+  "basicConstraints": 63,
+  "criticalExtensionOIDs": [
+    "Nam",
+    "dolor",
+    "tempor"
+  ],
+  "extendedKeyUsage": [
+    "dolor",
+    "ipsum",
+    "adipiscing"
+  ],
+  "extensions": [
+    {
+      "criticality": false,
+      "oid": "Fusce"
+    }
+  ],
+  "issuerAlternativeNames": [
+    {
+      "name": "Abram",
+      "type": 71
+    }
+  ],
+  "issuerDN": {
+    "commonName": "tempor",
+    "name": "Amy"
+  },
+  "issuerUniqueID": [
+    true,
+    true,
+    true
+  ],
+  "issuerX500Principal": {
+    "name": "Alana"
+  },
+  "keyUsage": [
+    true,
+    false,
+    true
+  ],
+  "name": "Althea",
+  "nonCriticalExtensionOIDs": [
+    "Nam",
+    "a"
+  ],
+  "publicKey": {
+    "algorithm": "lorem",
+    "modulus": 87,
+    "params": 55,
+    "publicKey": "dui"
+  },
+  "serialNumber": 29,
+  "serialNumberObject": {
+    "serialNumber": 8
+  },
+  "sigAlgName": "Fusce",
+  "sigAlgOID": "viverra",
+  "subjectAlternativeNames": [
+    {
+      "name": "Cecil",
+      "type": 89
+    }
+  ],
+  "subjectDN": {
+    "commonName": "viverra",
+    "name": "Cedrick"
+  },
+  "subjectX500Principal": {
+    "name": "Cordell"
+  },
+  "type": "dolor",
+  "version": 36
+}
