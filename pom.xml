@@ -28,7 +28,7 @@
                     <cloudhub2Deployment>
                         <uri>https://anypoint.mulesoft.com</uri>
                         <provider>MC</provider>
-                        <environment>SandBox</environment>
+                        <environment>Sandbox</environment>
                         <target>Cloudhub-US-East-2</target>
                         <server>Repository</server>
                         <applicationName>${project.artifactId}</applicationName>
@@ -39,7 +39,7 @@
                             <generateDefaultPublicUrl>true</generateDefaultPublicUrl>
                         </deploymentSettings>
                     </cloudhub2Deployment>
-                <configuration/>
+                </configuration>
             </plugin>
         </plugins>
     </build>
