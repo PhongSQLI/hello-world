@@ -9,8 +9,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <mule.runtime.version>4.9.11</mule.runtime.version>
-        <mule.maven.plugin.version>4.5.2</mule.maven.plugin.version>
+        <mule.maven.plugin.version>3.7.1</mule.maven.plugin.version>
     </properties>
     <build>
         <plugins>
@@ -28,16 +27,17 @@
                     <classifier>mule-application</classifier>
                     <cloudhub2Deployment>
                         <uri>https://anypoint.mulesoft.com</uri>
+                        <muleVersion>4.9.11</muleVersion>
                         <provider>MC</provider>
                         <environment>Sandbox</environment>
                         <target>Cloudhub-US-East-2</target>
-                        <username>${username}</username>
-                        <password>${password}</password>
+                        <username>PhongSQLI</username>
+                        <password>PhongSQLI123</password>
                         <server>Repository</server>
                         <applicationName>${project.artifactId}</applicationName>
                         <releaseChannel>NONE</releaseChannel>
                         <replicas>1</replicas>
-                        <vCores>0.1</vCores>
+                        <vCores>1</vCores>
                         <deploymentSettings>
                             <generateDefaultPublicUrl>true</generateDefaultPublicUrl>
                         </deploymentSettings>
