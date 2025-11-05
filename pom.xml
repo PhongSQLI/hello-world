@@ -31,8 +31,8 @@
                         <provider>MC</provider>
                         <environment>Sandbox</environment>
                         <target>Cloudhub-US-East-2</target>
-                        <username>PhongSQLI</username>
-                        <password>PhongSQLI123</password>
+                        <!--<username>PhongSQLI</username>
+                        <password>PhongSQLI123</password> -->
                         <server>Repository</server>
                         <applicationName>${project.artifactId}</applicationName>
                         <replicas>1</replicas>
