@@ -9,7 +9,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <mule.maven.plugin.version>4.1.1</mule.maven.plugin.version>
+        <mule.maven.plugin.version>4.5.2</mule.maven.plugin.version>
     </properties>
     <build>
         <plugins>
@@ -31,8 +31,6 @@
                         <provider>MC</provider>
                         <environment>Sandbox</environment>
                         <target>Cloudhub-US-East-2</target>
-                        <!--<username>PhongSQLI</username>
-                        <password>PhongSQLI123</password> -->
                         <server>Repository</server>
                         <applicationName>${project.artifactId}</applicationName>
                         <replicas>1</replicas>
