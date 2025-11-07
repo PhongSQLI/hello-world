@@ -1,74 +1,71 @@
 {
-  "basicConstraints": 63,
+  "basicConstraints": 94,
   "criticalExtensionOIDs": [
-    "Nam",
-    "dolor",
-    "tempor"
+    "semper",
+    "faucibus"
   ],
   "extendedKeyUsage": [
-    "dolor",
-    "ipsum",
-    "adipiscing"
+    "faucibus",
+    "a"
   ],
   "extensions": [
     {
-      "criticality": false,
-      "oid": "Fusce"
+      "criticality": true,
+      "oid": "erat"
     }
   ],
   "issuerAlternativeNames": [
     {
-      "name": "Abram",
-      "type": 71
+      "name": "Adrian",
+      "type": 18
     }
   ],
   "issuerDN": {
-    "commonName": "tempor",
-    "name": "Amy"
+    "commonName": "Fusce",
+    "name": "Amelia"
   },
   "issuerUniqueID": [
-    true,
     true,
     true
   ],
   "issuerX500Principal": {
-    "name": "Alana"
+    "name": "Alethea"
   },
   "keyUsage": [
     true,
-    false,
     true
   ],
-  "name": "Althea",
+  "name": "Carmelo",
   "nonCriticalExtensionOIDs": [
-    "Nam",
-    "a"
+    "lorem",
+    "lectus",
+    "sit"
   ],
   "publicKey": {
-    "algorithm": "lorem",
-    "modulus": 87,
-    "params": 55,
-    "publicKey": "dui"
+    "algorithm": "molestie",
+    "modulus": 24,
+    "params": 87,
+    "publicKey": "mi"
   },
-  "serialNumber": 29,
+  "serialNumber": 46,
   "serialNumberObject": {
-    "serialNumber": 8
+    "serialNumber": 77
   },
   "sigAlgName": "Fusce",
-  "sigAlgOID": "viverra",
+  "sigAlgOID": "arcu",
   "subjectAlternativeNames": [
     {
-      "name": "Cecil",
-      "type": 89
+      "name": "Ahmad",
+      "type": 8
     }
   ],
   "subjectDN": {
     "commonName": "viverra",
-    "name": "Cedrick"
+    "name": "Alise"
   },
   "subjectX500Principal": {
-    "name": "Cordell"
+    "name": "Alonzo"
   },
-  "type": "dolor",
-  "version": 36
+  "type": "sodales",
+  "version": 70
 }
