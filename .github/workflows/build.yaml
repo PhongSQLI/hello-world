@@ -27,7 +27,8 @@ jobs:
       - name: Test application
         run: mvn test --settings .maven/settings.xml
 
-  build:
+  deploy:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout this repo
